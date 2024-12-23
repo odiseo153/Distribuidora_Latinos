@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+//import {foto1} from '../../images/app/foto1.jpg';
 
 const images = [
-  "https://miro.medium.com/v2/resize:fit:1400/1*gsAx5C0V-Aj2e87pkzRkKg.jpeg",
-  "https://assets.epicurious.com/photos/57eebe2eb382c3c017d3fff0/master/pass/supermarket-shelves.jpg",
-  "https://assets.epicurious.com/photos/57eebe2eb382c3c017d3fff0/4:3/w_1716,h_1287,c_limit/supermarket-shelves.jpg"
+  "../../images/app/foto1.jpg",
+  "../../images/app/foto2.jpg",
+  "../../images/app/foto3.jpg",
+  "../../images/app/foto4.jpg",
 ];
 
 export const Carousel = () => {
